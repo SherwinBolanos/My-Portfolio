@@ -472,25 +472,11 @@ span{
     }
 
     .Project h2{
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
 
     .Project-container{
         grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 617px){
-    .Project-container{
-        grid-template-columns: 1fr;
-    }
-}
-@media (max-width: 620px){
-    html{
-        font-size: 50%;
-    }
-    .Contact form .input-box input{
-        width: 100%;
     }
 }
 
