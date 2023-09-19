@@ -250,7 +250,7 @@ span{
 
 .Project-container .Project-box{
     position: relative;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
@@ -312,7 +312,7 @@ span{
     height: 50rem;
 }
 .Contact form{
-    max-width: 70rem;
+    max-width: 60rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
@@ -527,6 +527,7 @@ span{
     border-radius: 10rem;
 }
 }
+
 /* para sa phone ko BWhahahhaha */
 @media (max-width: 375px){
     .Home{
@@ -555,6 +556,43 @@ span{
         height: 94vw;
         margin-bottom: 20vw;
     }
+    .Contact form{
+        max-width: 80vw;
+        border-radius: 10rem;
+    }
+}
+
+/* small cp*/
+@media (max-width: 320px){
+    .Home{
+        height: 250vw;
+    }
+    .Home-content p{
+        text-align: justify;
+    }
+    .home-img img{
+        height: 90vw;
+        width: 90vw;}
+        .about{
+            height: 120rem;
+        }
+    .about-img img{
+        width: 90vw;
+        height: 90vw;
+    }
+    .Skills{
+        height: 300vw;
+    }
+    .Project{
+        height: 590vw;
+    }
+    .Contact{
+        height: 110vw;
+    }
+    .Contact{
+
+    }
+
     .Contact form{
         max-width: 80vw;
         border-radius: 10rem;
