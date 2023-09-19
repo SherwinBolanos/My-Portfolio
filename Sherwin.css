@@ -250,7 +250,7 @@ span{
 
 .Project-container .Project-box{
     position: relative;
-    border-radius: 1rem;
+    border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
@@ -565,7 +565,7 @@ span{
 /* small cp*/
 @media (max-width: 320px){
     .Home{
-        height: 250vw;
+        height: 300vw;
     }
     .Home-content p{
         text-align: justify;
@@ -590,7 +590,7 @@ span{
         height: 110vw;
     }
     .Contact{
-
+        
     }
 
     .Contact form{
