@@ -32,3 +32,22 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+ScrollReveal({
+    reset: true,
+    distance: "80px",
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.Home-content, .heading, header', { origin: "top"});
+ScrollReveal().reveal('.home-img, .Project-container, .Skills-box, .Contact form',{ origin: "bottom"});
+ScrollReveal().reveal('.Home-content h1, .about-img',{ origin: "left"});
+ScrollReveal().reveal('.Home-content p, .about-content',{ origin: "right"});
+
+const typed = new Typed('.multiple-text',{
+    strings: ['Frontend Developer','Web Developer','3d Artist', 'FreeLancer','Video Editor', 'Photo Manipulator', ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
